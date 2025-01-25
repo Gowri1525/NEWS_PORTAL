@@ -1,0 +1,33 @@
+.nav-scroller {
+  background-color: #f8f9fa; /* Light background color */
+  padding: 10px 0; /* Add some padding for spacing */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
+
+.nav a {
+  font-size: 18px; /* Increase the text size */
+  font-family: 'Arial', sans-serif; /* Change font style */
+  color: #333; /* Set a dark color for the text */
+  text-decoration: none; /* Remove underline */
+  padding: 0 15px; /* Add horizontal spacing between links */
+  transition: color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.nav a:hover {
+  color: #007bff; /* Change color on hover */
+  transform: scale(1.1); /* Slightly enlarge on hover */
+  font-weight: bold; /* Make text bold on hover */
+}
+
+.nav a:active {
+  color: #0056b3; /* Darker color when clicked */
+}
+
+.nav-scroller .nav a:hover {
+  color: blue !important; /* Ensure the color changes to blue on hover */
+  transform: scale(1.1);
+  font-weight: bold;
+}
+ .card {
+  color:white;
+ }

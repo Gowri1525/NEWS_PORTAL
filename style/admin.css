@@ -1,0 +1,35 @@
+form-group{
+	width:50%;
+	margin-left:15%;
+}
+
+/* For the admin login form */
+.container.admin-login {
+    width: 60%; /* Adjust the width as needed */
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* For the sub-admin login form */
+.container.subadmin-login {
+    width: 40%; /* Smaller width compared to admin */
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* General styling for h3 titles in login forms */
+.container h3 {
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 20px;
+}

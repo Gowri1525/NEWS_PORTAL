@@ -1,0 +1,138 @@
+/* Responsive design for News Portal */
+
+/* General container adjustments */
+.container-fluid {
+    padding: 0 15px;
+}
+
+/* Responsive header adjustments */
+.blog-header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-header .col-md-4 {
+    text-align: center;
+}
+
+.blog-header .col-md-4 form {
+    margin-top: 10px;
+}
+
+.blog-header-logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Navbar adjustments for mobile */
+.nav-scroller {
+    overflow-x: auto;
+    white-space: nowrap;
+}
+
+.nav a {
+    padding: 0.5rem;
+    font-size: 1rem;
+}
+
+/* Responsive card adjustments */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-img-top {
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-img-right {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Blog content */
+.blog-post img {
+    width: 100%;
+    height: auto;
+}
+
+.blog-post blockquote {
+    font-size: 0.9rem;
+}
+
+/* Sidebar responsiveness */
+.blog-sidebar {
+    margin-top: 20px;
+}
+
+.blog-sidebar h4 {
+    font-size: 1.2rem;
+}
+
+/* Footer adjustments */
+.blog-footer {
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+/* Pagination */
+.pagination {
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.pagination .page-item .page-link {
+    font-size: 0.9rem;
+    padding: 0.4rem 0.8rem;
+}
+
+/* Media queries */
+@media (max-width: 768px) {
+    .blog-header {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog-header .col-md-4 {
+        margin-bottom: 10px;
+    }
+
+    .blog-header .col-md-4 form {
+        width: 100%;
+    }
+
+    .card {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .card-body {
+        text-align: center;
+    }
+
+    .blog-sidebar {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 576px) {
+    .blog-header-logo {
+        font-size: 1.2rem;
+    }
+
+    .nav a {
+        font-size: 0.8rem;
+    }
+
+    .blog-post blockquote {
+        font-size: 0.8rem;
+    }
+
+    .pagination .page-item .page-link {
+        padding: 0.3rem 0.6rem;
+    }
+}
